@@ -21,6 +21,7 @@ let c = document.querySelector(".c")
 let eq = document.querySelector(".eq")
 ac.addEventListener('click', () => {
     paraprev.innerHTML = ''
+    paraop.innerHTML=null
     para.innerHTML = null
     result = 0
     temp1 = ""
