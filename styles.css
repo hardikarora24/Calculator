@@ -10,12 +10,13 @@ body{
 .calculator-grid{
     margin-top:3vh;
     margin-bottom:3vh;
-    margin-right:10px;
-    margin-left:10px;
+    margin-right:3vw;
+    margin-left:3vw;
     display:grid;
     justify-content: center;
     align-content: center;
     height:94vh;
+    width:94vw;
     grid-template-columns: repeat(4,120px);
     grid-template-rows: repeat(5,120px)minmax(120px,auto);
 }
