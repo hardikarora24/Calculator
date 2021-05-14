@@ -21,7 +21,7 @@ let c = document.querySelector(".c")
 let eq = document.querySelector(".eq")
 ac.addEventListener('click', () => {
     paraprev.innerHTML = ''
-    paraop.innerHTML=null
+    paraop.innerHTML = null
     para.innerHTML = null
     result = 0
     temp1 = ""
@@ -36,32 +36,32 @@ c.addEventListener('click', () => {
 )
 sum.addEventListener('click', () => {
     aloo()
-    paraprev.innerHTML=result
-    paraop.innerHTML='+'
+    paraprev.innerHTML = result
+    paraop.innerHTML = '+'
     para.innerHTML = null
     act = 1
 }
 )
 sub.addEventListener('click', () => {
     aloo()
-    paraprev.innerHTML=result
-    paraop.innerHTML='-'
+    paraprev.innerHTML = result
+    paraop.innerHTML = '-'
     para.innerHTML = null
     act = 2
 }
 )
 mul.addEventListener('click', () => {
     aloo()
-    paraprev.innerHTML=result
-    paraop.innerHTML='*'
+    paraprev.innerHTML = result
+    paraop.innerHTML = '*'
     para.innerHTML = null
     act = 3
 }
 )
 di.addEventListener('click', () => {
     aloo()
-    paraprev.innerHTML=result
-    paraop.innerHTML='/'
+    paraprev.innerHTML = result
+    paraop.innerHTML = '/'
     para.innerHTML = null
     act = 4
 
@@ -69,17 +69,17 @@ di.addEventListener('click', () => {
 )
 eq.addEventListener('click', () => {
     aloo()
-    para.innerHTML=result
-    paraprev.innerHTML=null
+    para.innerHTML = result
+    paraprev.innerHTML = null
     result = 0
     temp1 = ""
     temp = 0
     act = 1
-    paraop.innerHTML=null
+    paraop.innerHTML = null
 }
 )
 function aloo() {
-    paraprev.innerHTML=para.innerHTML
+    paraprev.innerHTML = para.innerHTML
     temp1 = para.innerHTML.toString()
     temp = parseFloat(temp1)
     if (act == 1)
