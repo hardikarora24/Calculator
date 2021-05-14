@@ -8,10 +8,14 @@ body{
     background: linear-gradient(to right, red, blue);
 }
 .calculator-grid{
+    margin-top:3vh;
+    margin-bottom:3vh;
+    margin-right:10px;
+    margin-left:10px;
     display:grid;
     justify-content: center;
     align-content: center;
-    height:100vh;
+    height:94vh;
     grid-template-columns: repeat(4,120px);
     grid-template-rows: repeat(5,120px)minmax(120px,auto);
 }
